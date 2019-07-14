@@ -69,8 +69,27 @@ pre {
   }
 }
 
-@media (min-width: 991px) {
+@media (max-width: 992px) {
+  .header-flex {
+    flex-direction: column;
+  }
+  .col-4 {
+    justify-content: center;
+  }
+  .name {
+    margin-bottom: 16px;
+  }
+}
+
+@media (min-width: 992px) {
   .card img {
     display: block;
+  }
+  .col-4 {
+    justify-content: flex-end;
+  }
+  .name {
+    flex: 0 0 41.666667%;
+    padding-left: 15px;
   }
 }
