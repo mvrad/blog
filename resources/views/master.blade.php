@@ -2,6 +2,7 @@
 <html>
   <head>
     @include('head')
+    <title>Matthew Conrad | @yield('pageTitle')</title>
   </head>   
   <body>
     <div class="container">
@@ -130,6 +131,9 @@
             </h4>
             <ol class="list-unstyled mb-0">
               <li><a href="/">July 2019</a></li>
+            </ol>
+            <!-- <ol class="list-unstyled mb-0">
+              <li><a href="/">July 2019</a></li>
               <li><a class="disabled">June 2019</a></li>
               <li><a class="disabled">May 2019</a></li>
               <li><a class="disabled">April 2019</a></li>
@@ -155,7 +159,7 @@
                 <a class="dropdown-item disabled">February 2018</a>
                 <a class="dropdown-item disabled">January 2018</a>
               </div>
-            </div>
+            </div> -->
           </div>
           <div class="p-3">
             <h4 class="font-italic">
