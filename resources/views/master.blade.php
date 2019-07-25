@@ -12,7 +12,7 @@
           linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ),
           url(
             @foreach ($posts as $post)
-              @if($loop->last)
+              @if($loop->first)
                 {{$post->getFeatured_Image()}}
               @endif
             @endforeach
@@ -21,14 +21,14 @@
         <div class="col-md-6 px-0 main-featured-post">
           <h1 class="display-4 font-italic">
             @foreach ($posts as $post)
-              @if($loop->last)
+              @if($loop->first)
                 {{$post->getTitle()}}
               @endif
             @endforeach
           </h1>
           <p class="lead my-3">
             @foreach ($posts as $post)
-              @if($loop->last)
+              @if($loop->first)
                 {{$post->getSummary()}}
               @endif
             @endforeach
@@ -36,7 +36,7 @@
           <p class="lead mb-0">
             <a class="text-white font-weight-bold" href="
               @foreach ($posts as $post)
-                @if($loop->last)
+                @if($loop->first)
                   /{{urlencode($post->getSlug())}}
                 @endif
               @endforeach">
@@ -52,7 +52,7 @@
               <h3 class="mb-0 feature-title">
                 <a class="text-dark" href="
                   @foreach ($posts as $post)
-                    @if($loop->last)
+                    @if($loop->index == 1)
                       /{{urlencode($post->getSlug())}}">
                       {{$post->getTitle()}}
                     @endif
@@ -61,7 +61,7 @@
               </h3>
               <p class="card-text">
                 @foreach ($posts as $post)
-                  @if($loop->last)
+                  @if($loop->index == 1)
                     {{$post->getSummary()}}
                   @endif
                 @endforeach
@@ -69,7 +69,7 @@
             </div>
             <img class="card-img-right flex-auto" src="
               @foreach ($posts as $post)
-                @if($loop->last)
+                @if($loop->index == 1)
                   {{$post->getFeatured_Image()}}
                 @endif
               @endforeach" alt="Featured Post"
@@ -82,7 +82,7 @@
               <h3 class="mb-0 feature-title">
                 <a class="text-dark" href="
                   @foreach ($posts as $post)
-                    @if($loop->first)
+                    @if($loop->index == 2)
                       /{{urlencode($post->getSlug())}}">
                       {{$post->getTitle()}}
                     @endif
@@ -91,7 +91,7 @@
               </h3>
               <p class="card-text">
                 @foreach ($posts as $post)
-                  @if($loop->first)
+                  @if($loop->index == 2)
                     {{$post->getSummary()}}
                   @endif
                 @endforeach
@@ -99,7 +99,7 @@
             </div>
             <img class="card-img-right flex-auto" src="
               @foreach ($posts as $post)
-                @if($loop->first)
+                @if($loop->index == 2)
                   {{$post->getFeatured_Image()}}
                 @endif
               @endforeach" alt="Featured Post"
