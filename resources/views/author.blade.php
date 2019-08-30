@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-  @include('head')
-</head>
+@extends('master')
 
-@section('pageTitle', $author->getFirstName().' '.$author->getLastName())
+@section('pageTitle', 'Bio')
 
 <body>
   <div class="container author">

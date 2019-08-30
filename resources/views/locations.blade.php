@@ -5,7 +5,8 @@
 @section('content')
   <h2>Locations</h2>
 
-  <a href="/location/chicago">Chicago</a>
-  <br />
-
+  @foreach ($locations as $location)
+    <a href="/location/{{urlencode($location->getSlug())}}">{{$location->getName()}}</a>
+    <br />
+  @endforeach
 @stop
