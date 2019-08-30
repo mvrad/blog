@@ -13,6 +13,7 @@ Homestead.json
 Homestead.yaml
 npm-debug.log
 yarn-error.log
-# composer.lock
+composer.lock
 yarn.lock
 public\styles\.sass-cache
+public\js\config.js
