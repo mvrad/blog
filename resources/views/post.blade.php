@@ -2,7 +2,7 @@
 <html>
 <head>
   @include('head')
-  <title>Matthew Conrad | @yield('pageTitle', $post->getSeoTitle())</title>
+  <title>Matt Conrad | @yield('pageTitle', $post->getSeoTitle())</title>
 </head>
 
 @section('pageTitle', $post->getSeoTitle())

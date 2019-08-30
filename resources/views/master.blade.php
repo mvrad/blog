@@ -2,7 +2,7 @@
 <html>
   <head>
     @include('head')
-    <title>Matthew Conrad | @yield('pageTitle')</title>
+    <title>Matt Conrad | @yield('pageTitle')</title>
   </head>   
   <body>
     <div class="container">
