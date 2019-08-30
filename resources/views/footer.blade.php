@@ -1,6 +1,6 @@
 <footer class="blog-footer">
   <p>
-    &copy; 2019 <a href="https://mconrad.me" target="_blank">Matthew Conrad</a>
+    &copy; 2019 Matthew Conrad
     </p>
     <p>
     <a href="#">Back to top</a>
