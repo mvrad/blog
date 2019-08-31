@@ -39,10 +39,6 @@ pre {
   border-top: .05rem solid #e5e5e5;
 }
 
-.author {
-  height: calc(100vh - 245.797px);
-}
-
 .card-img-right {
   width: 200px;
   height: 250px;
