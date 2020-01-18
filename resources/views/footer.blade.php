@@ -1,6 +1,6 @@
 <footer class="blog-footer">
   <p>
-    &copy; 2019 Matthew Conrad
+    &copy; 2020 Matthew Conrad.
     </p>
     <p>
     <a href="#">Back to top</a>
