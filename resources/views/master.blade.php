@@ -122,7 +122,7 @@
               About
             </h4>
             <p class="mb-0">
-              I'm Matt, a web developer based in Seattle. This is my blog where I talk about web development, discoveries and breakthroughs in science and engineering, movie reviews, and pretty much anything that I find interesting enough to write about.
+              I'm Matt, a web developer based in Seattle. This is my blog where I like to write about current trends in web development, movie reviews, advancements in technology, and anything else that piques my interest.
             </p>
           </div>
           <!-- <div class="p-3">
