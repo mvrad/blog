@@ -57,7 +57,7 @@
                       {{$post->getTitle()}}
                     @endif
                   @endforeach
-                 </a>
+                </a>
               </h3>
               <p class="card-text">
                 @foreach ($posts as $post)
@@ -87,7 +87,7 @@
                       {{$post->getTitle()}}
                     @endif
                   @endforeach
-                 </a>
+                </a>
               </h3>
               <p class="card-text">
                 @foreach ($posts as $post)
@@ -122,7 +122,7 @@
               About
             </h4>
             <p class="mb-0">
-              I'm Matt, a web developer based in Seattle. This is my blog where I like to write about current trends in web development, movie reviews, advancements in technology, and anything else that piques my interest.
+              I'm Matt, a web developer based in Seattle. This is my blog where I like to write about current trends in web development and anything else that piques my interest.
             </p>
           </div>
           <!-- <div class="p-3">
@@ -173,7 +173,7 @@
                 <a href="https://twitter.com/mc0nrad" target="_blank">Twitter</a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/matthew-conrad" target="_blank">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/mvrad" target="_blank">LinkedIn</a>
               </li>
             </ol>
           </div>
